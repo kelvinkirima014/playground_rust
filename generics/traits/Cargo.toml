@@ -1,5 +1,5 @@
 [package]
-name = "references"
+name = "traits"
 version = "0.1.0"
 authors = ["kelvinkirima014 <kelvinkirima2@gmail.com>"]
 edition = "2018"
