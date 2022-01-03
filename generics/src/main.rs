@@ -32,7 +32,7 @@ fn main() {
 */
 /// Let's rewrite the above code to remove 
 /// duplication by using Generics
-fn largest<T: PartialOrd >(list: &[T]) -> &T {
+fn largest<T: PartialOrd>(list: &[T]) -> &T {
     let mut largest = &list[0];
     for item in list {
         if item > largest {
