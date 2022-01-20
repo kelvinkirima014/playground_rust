@@ -1,9 +1,7 @@
 fn main() {
-  let s = String::from("Test");
-  heap_example(&s);
-  }
-  fn heap_example(input: &String) {
-  let mystr = input;
-  //let _otherstr = mystr;
-  println!("{}", mystr);
-  }
+  let int1: u32;
+  let int2: u32;
+  let sum: u32;
+
+  
+}
