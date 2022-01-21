@@ -4,7 +4,13 @@ fn main() {
   let int2: u32;
   let sum: u32;
 
-  io::stdin().read_u32(&int1)
-  .read_u32(&int2)
-  .expect("Failed to read user input")
+  io::stdin().read_line(&int1)
+  .read_line(&int2)
+  .expect("Failed to read user input");
+
+  sum = get_sum(int1, int2);
+  println!("the sum is: {}", sum);
+}
+fn get_sum(s: u32, t: u32) -> u32 {
+  s + t
 }
