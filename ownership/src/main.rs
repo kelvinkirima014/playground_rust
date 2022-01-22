@@ -3,11 +3,22 @@ use std::io;
 fn main() {
   //ask user to enter first number
   println!("Enter first int bitch!");
-  let int1 = String::new();
+  let mut int1 = String::new();
+    io::stdin().read_line(& mut int1).unwrap();
   //enter second number bitch
   println!("Enter second int bitch!");
-  let int2 = String::new();
-  let sum;
+  let mut int2 = String::new();
+    io::stdin().read_line(& mut int2).unwrap();
   //convert str to u32
+  let a: u32 = int1.trim().parse::<u32>().unwrap();
+  let b: u32 = int2.trim().parse::<u32>().unwrap();
+
+  let sum = a + b;
+
+  println!("the sum is: {}", sum);
+
 
 }
+//fn get_sum(i: u32, j: u32) -> u32 {
+  //i + j
+//}
