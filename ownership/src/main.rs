@@ -6,7 +6,7 @@ fn main() {
   let int1 = String::new();
   //enter second number bitch
   println!("Enter second int bitch!");
-  let 1nt2 = String::new();
+  let int2 = String::new();
   let sum;
   //convert str to u32
 
