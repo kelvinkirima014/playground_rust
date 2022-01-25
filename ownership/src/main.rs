@@ -19,6 +19,3 @@ fn main() {
 
 
 }
-//fn get_sum(i: u32, j: u32) -> u32 {
-  //i + j
-//}
